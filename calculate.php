@@ -7,10 +7,12 @@
 
 function state($date) {
  
+
+
     $day=remainingTime($date);
     if ($day<=30) {
 
-        return ("danger");
+        return("danger");
     
     }
 

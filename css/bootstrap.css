@@ -23,7 +23,7 @@
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
-  --danger: #dc3545;
+  --danger: #fd0017;
   --light: #f8f9fa;
   --dark: #343a40;
   --breakpoint-xs: 0;
@@ -34,7 +34,15 @@
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
-
+.danger{
+  background-color: #fd0017;
+}
+.warning{
+  background-color: #ffc107;
+}
+.success{
+  background-color: #1e7e34;
+}
 *,
 *::before,
 *::after {
@@ -1653,6 +1661,9 @@ pre code {
 .table-danger > th,
 .table-danger > td {
   background-color: #f5c6cb;
+}
+.table-danger > tr {
+  background-color: #fd0017;
 }
 
 .table-hover .table-danger:hover {

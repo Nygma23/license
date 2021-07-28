@@ -2,7 +2,7 @@
 
 try {
 
-$db=new PDO("mysql:host=localhost;dbname=license_db;charset=utf8",'root','13801380mert');
+$db=new PDO("mysql:host=localhost;dbname=license_db;charset=utf8",'Mert','13801380mert');
 
 } catch (PDOException $e) {													
 
